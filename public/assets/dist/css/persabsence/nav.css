@@ -1,0 +1,325 @@
+.absence--nav {
+  width: 100%;
+  height: 100%;
+  display: block;
+  overflow: hidden;
+  background: #FFF;
+  padding-top: 35px;
+  padding-bottom: 100px; }
+  .absence--nav div.search {
+    margin-bottom: 30px; }
+    .absence--nav div.search label {
+      margin-right: 10px; }
+    .absence--nav div.search input[type="text"] {
+      border: 1px solid #2a3f54;
+      border-radius: 0;
+      color: #2a3f54;
+      margin-bottom: 10px;
+      padding: 5px; }
+    .absence--nav div.search button {
+      background: #2a3f54 none repeat scroll 0 0;
+      border: medium none;
+      color: #fff !important;
+      height: 33px;
+      margin-left: 5px;
+      padding: 0 10px; }
+  .absence--nav .calendar {
+    border: 1px solid #2a3f54;
+    color: #2a3f54;
+    margin-bottom: 10px;
+    padding: 5px;
+    border-radius: 0px; }
+  .absence--nav .calendar_icon {
+    color: #2a3f54;
+    cursor: pointer;
+    font-size: 1.2em; }
+  .absence--nav h3.sub_title {
+    margin-bottom: 50px; }
+  .absence--nav div.box_nav {
+    overflow: hidden; }
+    .absence--nav div.box_nav a {
+      display: block;
+      width: 100%;
+      height: 180px;
+      border: 1px solid #d4d4d4;
+      padding: 18px;
+      margin-bottom: 20px;
+      -webkit-transition: all 0.3s;
+      -moz-transition: all 0.3s;
+      -ms-transition: all 0.3s;
+      -o-transition: all 0.3s;
+      transition: all 0.3s; }
+      .absence--nav div.box_nav a div.box_img {
+        width: 100%;
+        height: 100px; }
+        .absence--nav div.box_nav a div.box_img img {
+          display: block;
+          max-width: 100px;
+          max-height: 100px;
+          width: auto;
+          height: auto;
+          margin: 0 auto; }
+      .absence--nav div.box_nav a img {
+        max-width: 100px;
+        width: auto;
+        height: auto;
+        display: block;
+        margin: 0 auto; }
+      .absence--nav div.box_nav a span {
+        width: 100%;
+        word-wrap: break-word;
+        display: block;
+        color: #000;
+        margin-top: 10px;
+        font-size: 1.2em;
+        text-align: center; }
+    .absence--nav div.box_nav a:hover {
+      background: #f8f8f8;
+      -webkit-box-shadow: 0px 8px 12px -6px #858585;
+      -moz-box-shadow: 0px 8px 12px -6px #858585;
+      box-shadow: 0px 8px 12px -6px #858585;
+      -webkit-transition: all 0.3s;
+      -moz-transition: all 0.3s;
+      -ms-transition: all 0.3s;
+      -o-transition: all 0.3s;
+      transition: all 0.3s; }
+
+.personals_users form {
+  display: table;
+  margin: 0 auto; }
+  .personals_users form button {
+    margin-left: 10px;
+    background: #2a3f54;
+    height: 35px;
+    color: #FFF !important;
+    border: none;
+    padding: 0 10px; }
+.personals_users div.box_nav a {
+  padding: 0;
+  border-radius: 3px;
+  border: none;
+  border-bottom: 4px solid #cddbe9;
+  border-top: 4px solid #2b9780;
+  min-height: 250px;
+  overflow: hidden;
+  height: auto; }
+  .personals_users div.box_nav a div.box_user {
+    border-left: 1px solid #d4d4d4;
+    border-right: 1px solid #d4d4d4;
+    padding: 15px;
+    height: 100%; }
+  .personals_users div.box_nav a div.box_img {
+    height: 150px;
+    border: 1px solid #d4d4d4;
+    background-repeat: no-repeat !important;
+    background-size: cover !important;
+    background-position: center center !important;
+    margin-bottom: 10px; }
+    @media screen and (max-width: 991px) {
+      .personals_users div.box_nav a div.box_img {
+        height: 150px;
+        margin: 0 auto 10px;
+        width: 150px; } }
+  .personals_users div.box_nav a div.name {
+    color: #2a3f54 !important;
+    padding-bottom: 10px;
+    border-bottom: 2px solid #a2bbd5;
+    text-align: center;
+    margin-bottom: 20px; }
+  .personals_users div.box_nav a table {
+    width: 100%;
+    height: auto; }
+    .personals_users div.box_nav a table tr td {
+      padding-bottom: 5px;
+      color: #333333; }
+    .personals_users div.box_nav a table tr td:nth-child(1) {
+      width: 50%; }
+    .personals_users div.box_nav a table tr td:nth-child(2) {
+      width: 10%; }
+    .personals_users div.box_nav a table tr td:nth-child(40) {
+      width: 40%; }
+  .personals_users div.box_nav a div.box_footer {
+    width: 100%;
+    padding: 15px 0 0; }
+    .personals_users div.box_nav a div.box_footer div.row {
+      padding: 10px 0 0;
+      border-top: 1px solid #d4d4d4; }
+    .personals_users div.box_nav a div.box_footer .total {
+      color: #5c748f !important; }
+.personals_users div.box_nav a:hover {
+  cursor: pointer; }
+
+.personals_user h3.no_data {
+  line-height: 1.5em; }
+.personals_user h3.sub_title {
+  margin-bottom: 20px; }
+.personals_user div.form {
+  text-align: right;
+  margin-bottom: 50px; }
+  @media screen and (max-width: 767px) {
+    .personals_user div.form {
+      text-align: left; } }
+.personals_user form {
+  margin: 20px auto 0; }
+  .personals_user form button {
+    margin-left: 10px;
+    background: #2a3f54;
+    height: 35px;
+    color: #FFF !important;
+    border: none;
+    padding: 0 10px; }
+.personals_user div.box_img {
+  width: 180px;
+  height: 200px;
+  background-repeat: no-repeat !important;
+  background-size: cover !important;
+  background-position: center center !important;
+  border: 2px solid #a6bfd7;
+  margin: 0 auto; }
+.personals_user h3.name {
+  color: #2a3f54;
+  border-bottom: 3px solid #7ccfbb;
+  padding-bottom: 5px;
+  display: inline-block;
+  padding-right: 70px;
+  margin-bottom: 40px; }
+  @media screen and (max-width: 767px) {
+    .personals_user h3.name {
+      padding-right: 0px;
+      width: 100%; } }
+.personals_user table.profile {
+  width: 100%; }
+  .personals_user table.profile tr td {
+    padding-bottom: 25px; }
+  .personals_user table.profile tr td:nth-child(1) {
+    color: #1656a3;
+    width: 45%; }
+  .personals_user table.profile tr td:nth-child(2) {
+    color: #1656a3;
+    text-align: center;
+    width: 10%; }
+  .personals_user table.profile tr td:nth-child(3) {
+    color: #333333;
+    width: 45%; }
+.personals_user div.group {
+  width: auto;
+  height: auto;
+  margin: 75px auto;
+  display: table;
+  background: #26b99a;
+  padding-right: 20px; }
+  @media screen and (max-width: 767px) {
+    .personals_user div.group {
+      margin: 20px auto; } }
+  .personals_user div.group span {
+    padding: 10px 15px;
+    color: #FFF;
+    display: block;
+    float: left; }
+  .personals_user div.group span:last-child {
+    background: #415d79; }
+.personals_user table.data-list {
+  width: 100%;
+  border-top: 1px solid #ebebeb;
+  border-bottom: 1px solid #ebebeb; }
+  .personals_user table.data-list thead tr th {
+    background: #415d79;
+    color: #FFF;
+    text-align: center;
+    vertical-align: middle;
+    border-left: 1px solid #dadada;
+    padding: 5px 0 0; }
+    @media screen and (max-width: 767px) {
+      .personals_user table.data-list thead tr th {
+        padding-bottom: 5px; } }
+    .personals_user table.data-list thead tr th > table {
+      width: 100%; }
+      .personals_user table.data-list thead tr th > table tr td {
+        width: 25%;
+        text-align: center;
+        vertical-align: middle;
+        background: #5880a8;
+        border-right: 1px solid #dadada;
+        padding: 5px 0;
+        color: #FFF; }
+      .personals_user table.data-list thead tr th > table tr td:last-child {
+        border-right: none; }
+  .personals_user table.data-list thead tr th:first-child {
+    width: 10%; }
+  .personals_user table.data-list thead tr th:nth-child(2) {
+    width: 8%; }
+  .personals_user table.data-list thead tr th:nth-child(3) {
+    width: 6%; }
+  .personals_user table.data-list thead tr th:nth-child(4) {
+    width: 6%; }
+  .personals_user table.data-list thead tr th:nth-child(5) {
+    width: 6%; }
+  .personals_user table.data-list thead tr th:nth-child(6) {
+    width: 6%; }
+  .personals_user table.data-list thead tr th:nth-child(7) {
+    width: 6%; }
+  .personals_user table.data-list thead tr th:nth-child(8) {
+    width: 6%; }
+  .personals_user table.data-list thead tr th:nth-child(10) {
+    width: 7%; }
+  .personals_user table.data-list thead tr th:nth-last-child(2) {
+    width: 7%;
+    background: #5880a8; }
+  .personals_user table.data-list thead tr th:last-child {
+    width: 8%;
+    border-right: 1px solid #dadada; }
+  .personals_user table.data-list > tbody > tr > td {
+    text-align: center;
+    color: #333333;
+    border-left: 1px solid #dadada; }
+    @media screen and (max-width: 767px) {
+      .personals_user table.data-list > tbody > tr > td {
+        padding: 5px 0; } }
+    .personals_user table.data-list > tbody > tr > td > table {
+      width: 100%; }
+      .personals_user table.data-list > tbody > tr > td > table tr td {
+        width: 25%;
+        text-align: center;
+        border-right: 1px solid #dadada;
+        border-left: none;
+        padding: 2px 0; }
+      .personals_user table.data-list > tbody > tr > td > table tr td:last-child {
+        border-right: none; }
+  .personals_user table.data-list > tbody > tr > td:last-child {
+    border-right: 1px solid #dadada; }
+  .personals_user table.data-list > tbody > tr.late td {
+    background: #fae58f !important; }
+  .personals_user table.data-list > tbody > tr.error td {
+    background: #cccccc !important; }
+  .personals_user table.data-list > tbody > tr.absence td {
+    background: #ec6d6d !important; }
+  .personals_user table.data-list > tbody > tr.holiday td {
+    background: #7ad2bf !important; }
+  .personals_user table.data-list > tbody > tr.leave td {
+    background: #526bed !important; }
+  .personals_user table.data-list > tbody > tr:nth-child(even) td {
+    background: #eaedf7; }
+  .personals_user table.data-list > tfoot tr td {
+    background: #415d79;
+    height: 30px; }
+.personals_user div.total_data {
+  margin-top: 30px; }
+  .personals_user div.total_data h3.title {
+    border-bottom: 1px solid #e3e3e3;
+    padding-bottom: 20px;
+    color: #1656a3;
+    margin-bottom: 30px; }
+  .personals_user div.total_data table {
+    width: 100%; }
+    .personals_user div.total_data table tr td {
+      padding: 10px 0;
+      color: #1656a3; }
+    .personals_user div.total_data table tr td:first-child {
+      width: 50%; }
+    .personals_user div.total_data table tr td:nth-child(2) {
+      width: 20%;
+      color: #000; }
+    .personals_user div.total_data table tr td:last-child {
+      width: 20%; }
+
+/*# sourceMappingURL=nav.css.map */

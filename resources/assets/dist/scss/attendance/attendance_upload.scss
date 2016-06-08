@@ -1,0 +1,310 @@
+@import "../_var.scss";
+div.attendance--upload_form{
+    width:100%;
+    height:100%;
+    display: block;
+    overflow:hidden;
+    background: #FFF;
+    border: 1px solid #dcdcdc;
+    padding-top:35px;
+    padding-bottom:100px;
+
+    div.box_upload_file{
+        width:100%;
+        height: auto;
+        border: 1px solid #dcdcdc;
+        padding:40px;
+
+
+        .calendar{
+            border:1px solid #2a3f54;
+            color:#2a3f54;
+            margin-bottom:10px;
+            padding:5px;
+            border-radius: 0px;
+        }
+
+        .calendar_icon{
+            color:#2a3f54;
+            cursor: pointer;
+            font-size:1.2em;
+        }
+
+        div.field_upload{
+            width: 100%;
+            height: auto;
+
+
+            input[type="file"]{
+                position: absolute;
+                opacity: 0;
+                width:70%;
+                z-index: -1;
+            }
+
+            input[type="text"]{
+                width:68%;
+                height:35px;
+                background: #ececec;
+                border:1px solid #cccccc;
+                padding:5px;
+            }
+            button{
+                width:15%;
+                height:35px;
+                background: #2a3f54;
+                color:#FFF;
+                border:none;
+                border-radius: 2px;
+            }
+        }
+    }
+
+    .show_text{
+        height: 300px;
+        overflow-x:hidden;
+        overflow-y:auto;
+
+
+    }
+}
+
+div.system_message{
+    margin-top:50px;
+
+    li{
+        a[href="#error_time"]{
+            span.badge{
+                background:#f39c12;
+            }
+        }
+
+        a[href="#ready"]{
+            span.badge{
+                background:#00a65a;
+            }
+        }
+
+        a[href="#no_employee"]{
+            span.badge{
+                background:#dd4b39;
+            }
+        }
+
+        a[href="#error_upload"]{
+            span.badge{
+                background:#cccccc;
+            }
+        }
+    }
+
+    .tab-content{
+        border:1px solid #ddd ;
+        border-top:none;
+
+        div.detail{
+            width: 100%;
+            height: 300px;
+            padding:10px;
+            overflow-x:hidden;
+            overflow-y:auto;
+            table{
+                width: 100%;
+                border:1px solid #ddd;
+                border-top:none;
+                tr td,tr,th{
+                    border:1px solid #ddd;
+                }
+                tr th{
+                    text-align: center;
+                    padding:5px;
+                }
+
+                tr {
+                    td{
+                        padding:5px;
+                        vertical-align: top;
+                        text-align: center;
+                    }
+                    td:nth-child(3){
+                        text-align: left;
+                    }
+
+                    td:first-child,td:last-child{
+                        border-left:none;
+                        border-right:none;
+                    }
+                }
+            }
+
+        }
+
+        #error_time{
+            div.box_check{
+                float: left;
+                width: auto;
+                height: auto;
+                padding:0 2px;
+                border:1px solid #555;
+                border-radius: 3px;
+                cursor: pointer;
+                margin:0 2px 3px;
+                color:#FFF;
+                i{
+                    display: none;
+                    font-size:0.8em;
+                    margin-left:3px;
+                    color:#FFFFFF;
+                }
+            }
+
+            div.box_check[item-use="true"]{
+                background: #5cb855;
+                border-color:#4cae4c;
+                i.fa-check{
+                    display: initial;
+                }
+            }
+            div.box_check[item-use="true"]:hover{
+                background: #449d44;
+                border-color:#398439;
+            }
+
+            div.box_check[item-use="false"]{
+                background: #d9534d;
+                border-color:#d43f3a;
+                i.fa-times{
+                    display: initial;
+                }
+            }
+
+            div.box_check[item-use="false"]:hover{
+                background: #c9302c;
+                border-color:#ac2925;
+            }
+
+            div.button{
+                padding:0 4px;
+                width: auto;
+                height: auto;
+                float: left;
+                background: #337ab7;
+                border:1px solid #2e6da4;
+                border-radius: 3px;
+                cursor: pointer;
+                color:#FFF;
+                margin:0 2px;
+            }
+
+            div.button:hover{
+                background:#286090;
+                border-color:#204d74;
+            }
+        }
+    }
+}
+
+.process_view{
+    margin-top:20px;
+    button{
+        width: 70%;
+        height:35px;
+        color:#FFFFFF;
+        border:none;
+        border-radius: 4px;
+        background:#2a3f54;
+        font-size:1.2em;
+
+    }
+    button:hover{
+        background: #1c2f42;
+    }
+}
+
+.attendance_popup{
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    background: rgba(0,0,0,0.8);
+    z-index: 99999;
+    top:0;
+
+    .popup_detail{
+        width: 600px;
+        height:300px;
+        background: #FFF;
+        left:50%;
+        top:50%;
+        margin-top:-150px;
+        margin-left:-300px;
+        position: absolute;
+        overflow:hidden;
+        padding:15px;
+
+        h2.title{
+            font-size:1.5em !important;
+            margin:0;
+            text-align: center;
+            margin-bottom:10px;
+        }
+
+        div.popup_table{
+            width: 100%;
+            height: 230px;
+            overflow-x:hidden;
+            overflow-y:auto;
+
+            table{
+                width:100%;
+                tr{
+                    td{
+                        color:#FFFFFF;
+                        padding:0 10px;
+                    }
+                }
+                tr.error_time{
+                    td{
+                        background:#f39c12;
+                        font-weight: bold;
+                    }
+                }
+
+                tr.ready{
+                    td{
+                        background:#00a65a;
+                    }
+                }
+
+                tr.no_employee{
+                    td{
+                        background:#dd4b39;
+                        font-weight: bold;
+                    }
+                }
+
+                tr.error_upload{
+                    td{
+                        background:#cccccc;
+                        font-weight: bold;
+                    }
+                }
+
+                tr.success{
+                    td{
+                        background:#00a65a;
+                    }
+                }
+
+                tr.error{
+                    td{
+                        background:#dd4b39;
+                        font-weight: bold;
+                    }
+                }
+
+            }
+
+        }
+
+    }
+}

@@ -1,0 +1,119 @@
+h1.title {
+  width: 100%;
+  height: auto;
+  text-align: center;
+  border-bottom: 1px solid #dcdcdc;
+  margin: 0;
+  padding-bottom: 20px;
+  text-transform: uppercase; }
+
+h2.sub_title {
+  text-transform: capitalize; }
+
+div.management--holiday {
+  width: 100%;
+  height: 100%;
+  display: block;
+  overflow: hidden;
+  background: #FFF;
+  padding-top: 35px;
+  padding-bottom: 100px;
+  margin-bottom: 20px; }
+  div.management--holiday span.span-right {
+    float: right; }
+  div.management--holiday input, div.management--holiday select {
+    border: 1px solid #2a3f54;
+    border-radius: 0;
+    color: #2a3f54;
+    margin-bottom: 10px;
+    padding: 5px;
+    color: #2a3f54; }
+  div.management--holiday div.show_img img {
+    width: 200px;
+    height: 180px; }
+  div.management--holiday p.text-not {
+    color: #FF0000; }
+  div.management--holiday p.text-available {
+    color: #00A65A; }
+  div.management--holiday span#necessary {
+    color: #FF0000; }
+  div.management--holiday img.img-file {
+    width: 50px;
+    height: 50px; }
+  div.management--holiday button[type="submit"] i {
+    margin-right: 5px; }
+  div.management--holiday a.btn-default {
+    background-color: #00A65A;
+    color: #FFF;
+    border-color: #00A65A; }
+  div.management--holiday a.btn-edit {
+    background-color: #E07E2A;
+    color: #FFF;
+    border-color: #B5641F; }
+  div.management--holiday a.btn-del {
+    background-color: #CE3927;
+    color: #FFF;
+    border-color: #9E2010; }
+  div.management--holiday a.btn-default:hover {
+    background-color: #34E494;
+    color: #000;
+    border-color: #00A65A; }
+  div.management--holiday a.btn-edit:hover {
+    background-color: #E6AE7E;
+    color: #000;
+    border-color: #00A65A; }
+  div.management--holiday a.btn-del:hover {
+    background-color: #D46355;
+    color: #000;
+    border-color: #00A65A; }
+  div.management--holiday button[type="submit"] {
+    background: #2a3f54;
+    border: none;
+    border-radius: 4px;
+    color: #ffffff;
+    height: 35px; }
+  div.management--holiday table#example1 img {
+    width: 90px;
+    height: 90px; }
+  div.management--holiday table#example1 thead tr {
+    background: #2A3F54;
+    color: #FFFFFF; }
+    div.management--holiday table#example1 thead tr th {
+      vertical-align: middle; }
+  div.management--holiday div#example1_filter {
+    float: right; }
+
+.holiday--nav {
+  width: 100%;
+  height: 100%;
+  display: block;
+  overflow: hidden;
+  background: #FFF;
+  padding-top: 35px;
+  padding-bottom: 100px; }
+  .holiday--nav h3.sub_title {
+    margin-bottom: 50px; }
+  .holiday--nav div.box_nav {
+    overflow: hidden; }
+    .holiday--nav div.box_nav a {
+      display: block;
+      width: 100%;
+      height: auto;
+      border: 1px solid #d4d4d4;
+      padding: 18px;
+      margin-bottom: 20px; }
+      .holiday--nav div.box_nav a img {
+        display: block;
+        max-width: 100px;
+        max-height: 100px;
+        width: auto;
+        height: auto;
+        margin: 0 auto; }
+      .holiday--nav div.box_nav a span {
+        display: block;
+        color: #000;
+        margin-top: 10px;
+        font-size: 24px;
+        text-align: center; }
+
+/*# sourceMappingURL=holiday.css.map */

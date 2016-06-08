@@ -1,0 +1,178 @@
+h1.title {
+  width: 100%;
+  height: auto;
+  text-align: center;
+  border-bottom: 1px solid #dcdcdc;
+  margin: 0;
+  padding-bottom: 20px;
+  text-transform: uppercase; }
+
+h2.sub_title {
+  text-transform: capitalize; }
+
+div.management--scheduletime {
+  width: 100%;
+  height: 100%;
+  display: block;
+  overflow: hidden;
+  background: #FFF;
+  padding-top: 35px;
+  padding-bottom: 100px;
+  /*    table {
+          background-color: transparent;
+          border-spacing: 0;
+          border-collapse: collapse;
+      }
+      table.table_detail thead tr th {
+          background: #415d79;
+          color: #FFFFFF;
+          min-height: 14px;
+          vertical-align: middle;
+          text-align: center;
+          border-right: 1px solid #dcdcdc;
+      }
+      table.table_detail thead tr th label {
+          font-weight: normal;
+          padding: 5px 0;
+      }
+      td, th {
+          padding: 0;
+      }
+      table.table_detail > tbody {
+          border-bottom: 1px solid #dcdcdc;
+      }
+      table.table_detail > tbody tr > td {
+          height: 40px;
+          vertical-align: middle;
+          border-right: 1px solid #dcdcdc;
+          border-bottom: 1px solid #dcdcdc;
+          text-align: center;
+      }
+      table.table_detail {
+          margin: 0 auto;
+          width: 80%;
+          border: 1px solid #dcdcdc;
+          height: auto;
+      }*/ }
+  div.management--scheduletime div.border-scheduletime {
+    border: #d4d4d4 1px solid;
+    text-align: center;
+    padding: 18px; }
+    div.management--scheduletime div.border-scheduletime img {
+      width: 100px; }
+    div.management--scheduletime div.border-scheduletime h3 {
+      color: #333333; }
+  div.management--scheduletime span.label-scheduletime {
+    background: #000000;
+    font-size: 100%;
+    margin-right: 5px; }
+  div.management--scheduletime div.form-group-scheduletime {
+    margin-bottom: 20px; }
+    div.management--scheduletime div.form-group-scheduletime span.span-right {
+      float: right; }
+    div.management--scheduletime div.form-group-scheduletime input, div.management--scheduletime div.form-group-scheduletime select {
+      border-color: #2B9780;
+      box-shadow: none; }
+    div.management--scheduletime div.form-group-scheduletime div.show_img img {
+      width: 150px;
+      height: 180px; }
+    div.management--scheduletime div.form-group-scheduletime p.text-not {
+      color: #FF0000; }
+    div.management--scheduletime div.form-group-scheduletime p.text-available {
+      color: #00A65A; }
+    div.management--scheduletime div.form-group-scheduletime span#necessary {
+      color: #FF0000; }
+    div.management--scheduletime div.form-group-scheduletime input[type="checkbox"] {
+      width: 17px;
+      height: 17px;
+      position: absolute;
+      /*            top: 0;
+                  left: 0;
+                  margin: 0;
+                  padding: 0;
+                  opacity: 1;
+                  z-index: 2;*/ }
+    div.management--scheduletime div.form-group-scheduletime div.box_checkbox {
+      float: left;
+      width: 17px;
+      height: 17px;
+      position: relative;
+      border: 1px solid #7ccfbb;
+      overflow: hidden;
+      margin-top: 5px;
+      margin-right: 20px; }
+    div.management--scheduletime div.form-group-scheduletime .form-control-scheduletime[disabled] {
+      cursor: not-allowed;
+      background-color: #A2A2A2;
+      opacity: 1; }
+    div.management--scheduletime div.form-group-scheduletime .nav-tabs-custom {
+      box-shadow: 0 1px 1px black; }
+    div.management--scheduletime div.form-group-scheduletime ul {
+      list-style: none outside none;
+      display: flex; }
+    div.management--scheduletime div.form-group-scheduletime ul li {
+      float: left;
+      display: block;
+      width: 100px;
+      height: 40px; }
+  div.management--scheduletime div.week-checkbook {
+    display: initial; }
+  div.management--scheduletime div.week-checkbook-row {
+    margin-top: 10px;
+    margin-bottom: 10px; }
+  div.management--scheduletime div.week-checkbook span {
+    margin-right: 10px; }
+  div.management--scheduletime div.form-group-weekend {
+    margin-bottom: 20px; }
+    div.management--scheduletime div.form-group-weekend span.span-right {
+      float: right; }
+    div.management--scheduletime div.form-group-weekend input, div.management--scheduletime div.form-group-weekend select {
+      border-color: #2B9780;
+      box-shadow: none; }
+    div.management--scheduletime div.form-group-weekend div.show_img img {
+      width: 150px;
+      height: 180px; }
+    div.management--scheduletime div.form-group-weekend p.text-not {
+      color: #FF0000; }
+    div.management--scheduletime div.form-group-weekend p.text-available {
+      color: #00A65A; }
+    div.management--scheduletime div.form-group-weekend span#necessary {
+      color: #FF0000; }
+  div.management--scheduletime button[type="submit"] i {
+    margin-right: 5px; }
+  div.management--scheduletime table.tab-scheduletime img {
+    width: 90px;
+    height: 90px; }
+  div.management--scheduletime table.tab-scheduletime thead tr {
+    background: #2A3F54;
+    color: #FFFFFF; }
+  div.management--scheduletime table.tab-scheduletime tr td p span {
+    font-size: 100%; }
+  div.management--scheduletime div.from-view a.btn-default {
+    background-color: #00A65A;
+    color: #FFF;
+    border-color: #00A65A; }
+  div.management--scheduletime div.from-view a.btn-edit {
+    background-color: #E07E2A;
+    color: #FFF;
+    border-color: #B5641F; }
+  div.management--scheduletime div.from-view a.btn-del {
+    background-color: #CE3927;
+    color: #FFF;
+    border-color: #9E2010; }
+  div.management--scheduletime div.from-view a.btn-default:hover {
+    background-color: #34E494;
+    color: #000;
+    border-color: #00A65A; }
+  div.management--scheduletime div.from-view a.btn-edit:hover {
+    background-color: #E6AE7E;
+    color: #000;
+    border-color: #00A65A; }
+  div.management--scheduletime div.from-view a.btn-del:hover {
+    background-color: #D46355;
+    color: #000;
+    border-color: #00A65A; }
+  div.management--scheduletime div.from-view div#example1_filter {
+    float: right; }
+
+/*# sourceMappingURL=scheduletime.css.map */

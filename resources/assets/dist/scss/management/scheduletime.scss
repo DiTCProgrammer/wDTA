@@ -1,0 +1,219 @@
+@import "../_var.scss";
+
+div.management--scheduletime{
+    width:100%;
+    height:100%;
+    display: block;
+    overflow:hidden;
+    background: #FFF;
+   // border: 1px solid #dcdcdc;
+    padding-top:35px;
+    padding-bottom:100px;
+    /*    table {
+            background-color: transparent;
+            border-spacing: 0;
+            border-collapse: collapse;
+        }
+        table.table_detail thead tr th {
+            background: #415d79;
+            color: #FFFFFF;
+            min-height: 14px;
+            vertical-align: middle;
+            text-align: center;
+            border-right: 1px solid #dcdcdc;
+        }
+        table.table_detail thead tr th label {
+            font-weight: normal;
+            padding: 5px 0;
+        }
+        td, th {
+            padding: 0;
+        }
+        table.table_detail > tbody {
+            border-bottom: 1px solid #dcdcdc;
+        }
+        table.table_detail > tbody tr > td {
+            height: 40px;
+            vertical-align: middle;
+            border-right: 1px solid #dcdcdc;
+            border-bottom: 1px solid #dcdcdc;
+            text-align: center;
+        }
+        table.table_detail {
+            margin: 0 auto;
+            width: 80%;
+            border: 1px solid #dcdcdc;
+            height: auto;
+        }*/
+    div.border-scheduletime{
+        border: #d4d4d4 1px solid;
+        text-align: center;
+        padding: 18px;
+        img{
+            width: 100px;
+        }
+        h3{
+            color: #333333;
+        }
+
+    }
+
+    span.label-scheduletime{
+        background: #000000;
+        font-size: 100%;
+        margin-right: 5px;
+    }
+    div.form-group-scheduletime{
+        margin-bottom:20px;
+        span.span-right{
+            float: right;
+        }
+        input,select{
+            border-color: #2B9780;
+            box-shadow: none;
+        }
+        div.show_img img{
+            width: 150px;
+            height: 180px;
+        }
+        p.text-not{
+            color: #FF0000;
+        }
+        p.text-available{
+            color: #00A65A;
+        }
+        span#necessary{
+            color: #FF0000;
+        }
+        input[type="checkbox"] {
+            width: 17px;
+            height: 17px;
+            position: absolute;
+            /*            top: 0;
+                        left: 0;
+                        margin: 0;
+                        padding: 0;
+                        opacity: 1;
+                        z-index: 2;*/
+        }
+        div.box_checkbox {
+            float: left;
+            width: 17px;
+            height: 17px;
+            position: relative;
+            border: 1px solid #7ccfbb;
+            overflow: hidden;
+            margin-top: 5px;
+            margin-right: 20px;
+        }
+        .form-control-scheduletime[disabled]{
+            cursor: not-allowed;
+            background-color: #A2A2A2;
+            opacity: 1;
+        }
+
+        .nav-tabs-custom{
+            box-shadow: 0 1px 1px rgb(0, 0, 0);
+        }
+        ul{
+            list-style: none outside none;display: flex;
+        }
+        ul li{
+            float: left;display: block;width: 100px;height: 40px;
+        }
+
+    }
+
+    div.week-checkbook{
+        display: initial;
+    }
+    div.week-checkbook-row{
+        margin-top: 10px;
+        margin-bottom: 10px;
+
+    }
+    div.week-checkbook span{
+        margin-right: 10px;
+    }
+    div.form-group-weekend{
+        margin-bottom:20px;
+        span.span-right{
+            float: right;
+        }
+        input,select{
+            border-color: #2B9780;
+            box-shadow: none;
+        }
+        div.show_img img{
+            width: 150px;
+            height: 180px;
+        }
+        p.text-not{
+            color: #FF0000;
+        }
+        p.text-available{
+            color: #00A65A;
+        }
+        span#necessary{
+            color: #FF0000;
+        }
+
+    }
+    button[type="submit"] i{
+        margin-right: 5px;
+    }
+
+    table.tab-scheduletime{
+        img{
+            width: 90px;
+            height: 90px;
+        }
+        thead tr{
+            background: #2A3F54;
+            color: #FFFFFF;
+        }
+        tr td p span{
+            font-size: 100%;
+        }
+    }
+
+    div.from-view{
+        a.btn-default{
+            background-color: #00A65A;
+            color: #FFF;
+            border-color: #00A65A;
+        }
+        a.btn-edit{
+            background-color: #E07E2A;
+            color: #FFF;
+            border-color: #B5641F;
+        }
+        a.btn-del{
+            background-color: #CE3927;
+            color: #FFF;
+            border-color: #9E2010;
+        }
+        a.btn-default:hover{
+            background-color: #34E494;
+            color: #000;
+            border-color: #00A65A;
+        }
+        a.btn-edit:hover{
+            background-color: #E6AE7E;
+            color: #000;
+            border-color: #00A65A;
+        }
+        a.btn-del:hover{
+            background-color: #D46355;
+            color: #000;
+            border-color: #00A65A;
+        }
+
+
+        div#example1_filter{
+            float: right;
+        }
+
+
+    }
+}

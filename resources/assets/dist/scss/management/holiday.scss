@@ -1,0 +1,153 @@
+@import "../_var.scss";
+
+div.management--holiday{
+    width:100%;
+    height:100%;
+    display: block;
+    overflow:hidden;
+    background: #FFF;
+    //  border: 1px solid #dcdcdc;
+    padding-top:35px;
+    padding-bottom:100px;
+
+    margin-bottom:20px;
+    span.span-right{
+        float: right;
+    }
+    input,select{
+        border: 1px solid #2a3f54;
+        border-radius: 0;
+        color: #2a3f54;
+        margin-bottom: 10px;
+        padding: 5px;
+        color:#2a3f54;
+    }
+    div.show_img img{
+        width: 200px;
+        height: 180px;
+    }
+    p.text-not{
+        color: #FF0000;
+    }
+    p.text-available{
+        color: #00A65A;
+    }
+    span#necessary{
+        color: #FF0000;
+    }
+
+    img.img-file{
+        width: 50px;
+        height: 50px;
+    }
+    button[type="submit"] i{
+        margin-right: 5px;
+    }
+
+
+
+    a.btn-default{
+        background-color: #00A65A;
+        color: #FFF;
+        border-color: #00A65A;
+    }
+    a.btn-edit{
+        background-color: #E07E2A;
+        color: #FFF;
+        border-color: #B5641F;
+    }
+    a.btn-del{
+        background-color: #CE3927;
+        color: #FFF;
+        border-color: #9E2010;
+    }
+    a.btn-default:hover{
+        background-color: #34E494;
+        color: #000;
+        border-color: #00A65A;
+    }
+    a.btn-edit:hover{
+        background-color: #E6AE7E;
+        color: #000;
+        border-color: #00A65A;
+    }
+    a.btn-del:hover{
+        background-color: #D46355;
+        color: #000;
+        border-color: #00A65A;
+    }
+
+    button[type="submit"]{
+        background: #2a3f54;
+        border: none;
+        border-radius: 4px;
+        color: #ffffff;
+        height: 35px;
+    }
+
+
+    table#example1{
+        img{
+            width: 90px;
+            height: 90px;
+        }
+        thead tr{
+            background: #2A3F54;
+            color: #FFFFFF;
+            th{
+                vertical-align: middle;
+            }
+        }     
+    }
+    div#example1_filter{
+        float: right;
+    }
+
+
+
+}
+
+.holiday--nav{
+    width:100%;
+    height:100%;
+    display: block;
+    overflow:hidden;
+    background: #FFF;
+    // border: 1px solid #dcdcdc;
+    padding-top:35px;
+    padding-bottom:100px;
+
+    h3.sub_title{
+        margin-bottom:50px;
+    }
+
+    div.box_nav{
+        overflow: hidden;
+        a{
+            display: block;
+            width: 100%;
+            height: auto;
+            border: 1px solid #d4d4d4;
+            padding:18px;
+            margin-bottom:20px;
+
+            img{
+                display: block;
+                max-width: 100px;
+                max-height: 100px;
+                width: auto;
+                height: auto;
+                margin:0 auto;
+            }
+
+            span{
+                display: block;
+                color:#000;
+                margin-top:10px;
+                font-size:24px;
+                text-align: center;
+            }
+        }
+    }
+
+}

@@ -1,0 +1,108 @@
+h1.title {
+  width: 100%;
+  height: auto;
+  text-align: center;
+  border-bottom: 1px solid #dcdcdc;
+  margin: 0;
+  padding-bottom: 20px;
+  text-transform: uppercase; }
+
+h2.sub_title {
+  text-transform: capitalize; }
+
+div.management--company {
+  width: 100%;
+  height: 100%;
+  display: block;
+  overflow: hidden;
+  background: #FFF;
+  padding-top: 35px;
+  padding-bottom: 100px; }
+  div.management--company div.form-group-company {
+    margin-bottom: 20px; }
+    div.management--company div.form-group-company span.span-right {
+      float: right; }
+    div.management--company div.form-group-company input, div.management--company div.form-group-company select, div.management--company div.form-group-company textarea {
+      border: 1px solid #2a3f54;
+      border-radius: 0;
+      color: #2a3f54;
+      margin-bottom: 10px;
+      padding: 5px;
+      color: #2a3f54 !important; }
+    div.management--company div.form-group-company div.file {
+      width: 100%;
+      position: relative;
+      border: 1px solid #2a3f54;
+      border-radius: 0;
+      color: #2a3f54;
+      margin-bottom: 10px;
+      padding: 5px;
+      color: #2a3f54; }
+      div.management--company div.form-group-company div.file div {
+        width: 100%;
+        font-weight: bold;
+        position: relative;
+        text-align: center;
+        overflow: hidden; }
+      div.management--company div.form-group-company div.file input[name="logo"] {
+        opacity: 0;
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 300px;
+        z-index: 22;
+        cursor: pointer; }
+    div.management--company div.form-group-company div.show_img img {
+      width: 200px;
+      height: 180px; }
+    div.management--company div.form-group-company p.text-not {
+      color: #FF0000; }
+    div.management--company div.form-group-company p.text-available {
+      color: #00A65A; }
+    div.management--company div.form-group-company span#necessary {
+      color: #FF0000; }
+    div.management--company div.form-group-company img.img-file {
+      width: 50px;
+      height: 50px; }
+    div.management--company div.form-group-company button[type="submit"] i {
+      margin-right: 5px; }
+    div.management--company div.form-group-company button[type="submit"] {
+      background: #2a3f54;
+      border: none;
+      border-radius: 4px;
+      color: #ffffff;
+      height: 35px; }
+  div.management--company div.from-view a.btn-default {
+    background-color: #00A65A;
+    color: #FFF;
+    border-color: #00A65A; }
+  div.management--company div.from-view a.btn-edit {
+    background-color: #E07E2A;
+    color: #FFF;
+    border-color: #B5641F; }
+  div.management--company div.from-view a.btn-del {
+    background-color: #CE3927;
+    color: #FFF;
+    border-color: #9E2010; }
+  div.management--company div.from-view a.btn-default:hover {
+    background-color: #34E494;
+    color: #000;
+    border-color: #00A65A; }
+  div.management--company div.from-view a.btn-edit:hover {
+    background-color: #E6AE7E;
+    color: #000;
+    border-color: #00A65A; }
+  div.management--company div.from-view a.btn-del:hover {
+    background-color: #D46355;
+    color: #000;
+    border-color: #00A65A; }
+  div.management--company div.from-view table#example1 img {
+    width: 90px;
+    height: 90px; }
+  div.management--company div.from-view table#example1 thead tr {
+    background: #2A3F54;
+    color: #FFFFFF; }
+  div.management--company div.from-view div#example1_filter {
+    float: right; }
+
+/*# sourceMappingURL=company.css.map */

@@ -1,0 +1,138 @@
+h1.title {
+  width: 100%;
+  height: auto;
+  text-align: center;
+  border-bottom: 1px solid #dcdcdc;
+  margin: 0;
+  padding-bottom: 20px;
+  text-transform: uppercase; }
+
+h2.sub_title {
+  text-transform: capitalize; }
+
+div.management--weekend {
+  width: 100%;
+  height: 100%;
+  display: block;
+  overflow: hidden;
+  background: #FFF;
+  padding: 35px 0px 100px; }
+  div.management--weekend div.border-weekend {
+    border: #d4d4d4 1px solid;
+    text-align: center;
+    padding: 18px; }
+    div.management--weekend div.border-weekend img {
+      width: 100px; }
+    div.management--weekend div.border-weekend h3 {
+      color: #333333; }
+  div.management--weekend ul {
+    list-style: none;
+    margin: 0 0 20px;
+    padding: 0; }
+    @media screen and (max-width: 767px) {
+      div.management--weekend ul {
+        margin-top: 20px; } }
+  div.management--weekend button[type="submit"] {
+    background: #2a3f54;
+    border: none;
+    border-radius: 4px;
+    color: #ffffff;
+    height: 35px; }
+  div.management--weekend input, div.management--weekend select {
+    border: 1px solid #2a3f54;
+    border-radius: 0;
+    color: #2a3f54;
+    margin-bottom: 10px;
+    padding: 5px;
+    color: #2a3f54; }
+  div.management--weekend div.name_date span {
+    margin-right: 12px !important; }
+  div.management--weekend div.week-checkbook {
+    display: initial; }
+  div.management--weekend div.week-checkbook-row {
+    margin-top: 10px;
+    margin-bottom: 10px; }
+  div.management--weekend div.week-checkbook span {
+    margin-right: 10px; }
+  div.management--weekend div.form-group-weekend {
+    margin-bottom: 20px; }
+    div.management--weekend div.form-group-weekend span.span-right {
+      float: right; }
+    div.management--weekend div.form-group-weekend div.show_img img {
+      width: 150px;
+      height: 180px; }
+    div.management--weekend div.form-group-weekend p.text-not {
+      color: #FF0000; }
+    div.management--weekend div.form-group-weekend p.text-available {
+      color: #00A65A; }
+    div.management--weekend div.form-group-weekend span#necessary {
+      color: #FF0000; }
+  div.management--weekend button[type="submit"] i {
+    margin-right: 5px; }
+  div.management--weekend a.btn-default {
+    background-color: #00A65A;
+    color: #FFF;
+    border-color: #00A65A; }
+  div.management--weekend a.btn-edit {
+    background-color: #E07E2A;
+    color: #FFF;
+    border-color: #B5641F; }
+  div.management--weekend a.btn-del {
+    background-color: #CE3927;
+    color: #FFF;
+    border-color: #9E2010; }
+  div.management--weekend a.btn-default:hover {
+    background-color: #34E494;
+    color: #000;
+    border-color: #00A65A; }
+  div.management--weekend a.btn-edit:hover {
+    background-color: #E6AE7E;
+    color: #000;
+    border-color: #00A65A; }
+  div.management--weekend a.btn-del:hover {
+    background-color: #D46355;
+    color: #000;
+    border-color: #00A65A; }
+  div.management--weekend table img {
+    width: 90px;
+    height: 90px; }
+  div.management--weekend table thead tr {
+    background: #2A3F54;
+    color: #FFFFFF; }
+  div.management--weekend div#example1_filter {
+    float: right; }
+
+.nav_main {
+  width: 100%;
+  height: 100%;
+  display: block;
+  overflow: hidden;
+  background: #FFF;
+  padding-top: 35px;
+  padding-bottom: 100px; }
+  .nav_main h3.sub_title {
+    margin-bottom: 50px; }
+  .nav_main div.box_nav {
+    overflow: hidden; }
+    .nav_main div.box_nav a {
+      display: block;
+      width: 100%;
+      height: auto;
+      border: 1px solid #d4d4d4;
+      padding: 18px;
+      margin-bottom: 20px; }
+      .nav_main div.box_nav a img {
+        display: block;
+        max-width: 100px;
+        max-height: 100px;
+        width: auto;
+        height: auto;
+        margin: 0 auto; }
+      .nav_main div.box_nav a span {
+        display: block;
+        color: #000;
+        margin-top: 10px;
+        font-size: 24px;
+        text-align: center; }
+
+/*# sourceMappingURL=weekend.css.map */

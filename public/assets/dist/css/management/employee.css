@@ -1,0 +1,72 @@
+h1.title {
+  width: 100%;
+  height: auto;
+  text-align: center;
+  border-bottom: 1px solid #dcdcdc;
+  margin: 0;
+  padding-bottom: 20px;
+  text-transform: uppercase; }
+
+h2.sub_title {
+  text-transform: capitalize; }
+
+div.management--employee, div.management--employee--create {
+  width: 100%;
+  height: 100%;
+  display: block;
+  overflow: hidden;
+  background: #FFF;
+  padding-top: 35px;
+  padding-bottom: 100px; }
+  div.management--employee div.form-group-employee, div.management--employee--create div.form-group-employee {
+    margin-bottom: 20px; }
+    div.management--employee div.form-group-employee span.span-right, div.management--employee--create div.form-group-employee span.span-right {
+      float: right; }
+    div.management--employee div.form-group-employee input, div.management--employee div.form-group-employee select, div.management--employee--create div.form-group-employee input, div.management--employee--create div.form-group-employee select {
+      border-color: #2B9780;
+      box-shadow: none; }
+    div.management--employee div.form-group-employee div.show_img img, div.management--employee--create div.form-group-employee div.show_img img {
+      width: 150px;
+      height: 180px; }
+    div.management--employee div.form-group-employee p.text-not, div.management--employee--create div.form-group-employee p.text-not {
+      color: #FF0000; }
+    div.management--employee div.form-group-employee p.text-available, div.management--employee--create div.form-group-employee p.text-available {
+      color: #00A65A; }
+    div.management--employee div.form-group-employee span#necessary, div.management--employee--create div.form-group-employee span#necessary {
+      color: #FF0000; }
+  div.management--employee button[type="submit"] i, div.management--employee--create button[type="submit"] i {
+    margin-right: 5px; }
+  div.management--employee div.from-view a.btn-default, div.management--employee--create div.from-view a.btn-default {
+    background-color: #00A65A;
+    color: #FFF;
+    border-color: #00A65A; }
+  div.management--employee div.from-view a.btn-edit, div.management--employee--create div.from-view a.btn-edit {
+    background-color: #E07E2A;
+    color: #FFF;
+    border-color: #B5641F; }
+  div.management--employee div.from-view a.btn-del, div.management--employee--create div.from-view a.btn-del {
+    background-color: #CE3927;
+    color: #FFF;
+    border-color: #9E2010; }
+  div.management--employee div.from-view a.btn-default:hover, div.management--employee--create div.from-view a.btn-default:hover {
+    background-color: #34E494;
+    color: #000;
+    border-color: #00A65A; }
+  div.management--employee div.from-view a.btn-edit:hover, div.management--employee--create div.from-view a.btn-edit:hover {
+    background-color: #E6AE7E;
+    color: #000;
+    border-color: #00A65A; }
+  div.management--employee div.from-view a.btn-del:hover, div.management--employee--create div.from-view a.btn-del:hover {
+    background-color: #D46355;
+    color: #000;
+    border-color: #00A65A; }
+  div.management--employee div.from-view table#example1 img, div.management--employee--create div.from-view table#example1 img {
+    width: 90px;
+    height: 90px; }
+  div.management--employee div.from-view table#example1 thead tr, div.management--employee--create div.from-view table#example1 thead tr {
+    background: #2A3F54;
+    color: #FFFFFF; }
+  div.management--employee div.from-view div#example1_filter, div.management--employee--create div.from-view div#example1_filter {
+    float: right; }
+
+/*# sourceMappingURL=employee.css.map */
